@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.body_wrapper{
+  height: 600px;
+  width: 100%;
+  background: #5d5c5c;
+}
+
+.left_col {
+  width: 200px;
+  height: 100%;
+  background: blue;
+  float: left;
+}
+
+.center_col {
+  width: calc(100% - 400px);
+background: white;
+float: left;
+height: 100%;
+}
+
+.right_col {
+    background: red;
+    height: 100%;
+    float: right;
+    width: 200px;
+}

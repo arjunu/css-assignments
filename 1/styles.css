@@ -8,8 +8,13 @@
 header {
     position: relative;
     background: black;
-    height: 70px;
-    padding: 5px;
+    height: 59px;
+}
+
+.header__container{
+  width: 800px;
+  margin: auto;
+  height: 59px;
 }
 
 a {
@@ -20,29 +25,32 @@ a {
 .logo {
     display: inline-block;
     margin-left: 25px;
+    float: left;
 }
 
 nav {
     display: inline-block;
+    float: right;
+    height: 100%;
 }
 
 nav > ul {
     color: white;
     list-style: none;
-    position: absolute;
-    bottom: 0px;
-    right: 0;
+    height: 100%;
 }
 
 .nav-item {
     display: inline-block;
     margin-right: 15px;
     padding-bottom: 5px;
+    height: 100%;
+    padding-top: 30px;
 }
 
 .nav-item:hover {
   background-image: url("./images/arrow.png");
   background-repeat: no-repeat;
-  background-position-y: 17px;
+  background-position-y: 53px;
   background-position-x: center;
 }
